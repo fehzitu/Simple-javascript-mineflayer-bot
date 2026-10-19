@@ -4,7 +4,7 @@ const mineflayer = require('mineflayer');
 // create our bot
 const bot = mineflayer.createBot({
     host: 'your server ip here', // host is a server ip
-    port: 26696, // port is to use a port (if have a one)
+    port: 25565, // port is to use a port (if have a one)
     username: 'fehzitu dev :)', // in game name
     // version: '1.21.11', // defines an version (if you wanna use an specific version)
     auth: 'offline' // use 'microsoft' if you will use original minecraft account
