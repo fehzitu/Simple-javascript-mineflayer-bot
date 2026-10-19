@@ -48,7 +48,7 @@ Make sure your account and server support the authentication method you're using
 
 ### 4. Run the bot
 ```bash
-node .
+node run help
 ```
 
 That's it! If everything is configured correctly, your bot should attempt to connect to the server.

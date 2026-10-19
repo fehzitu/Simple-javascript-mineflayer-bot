@@ -4,7 +4,7 @@
   "description": "A simple Minecraft Java bot built with JavaScript and [Mineflayer](https://github.com/PrismarineJS/mineflayer).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "help": "echo Change the Ip, port, and bot name values in index.js, then run [node .]"
   },
   "repository": {
     "type": "git",
