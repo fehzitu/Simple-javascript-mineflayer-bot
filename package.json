@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/fehzitu/Simple-javascript-mineflayer-bot/issues"
   },
-  "homepage": "https://github.com/fehzitu/Simple-javascript-mineflayer-bot#readme"
+  "homepage": "https://github.com/fehzitu/Simple-javascript-mineflayer-bot#readme",
+  "dependencies": {
+    "mineflayer": "^4.39.0"
+  }
 }
