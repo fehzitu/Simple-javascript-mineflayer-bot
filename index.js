@@ -16,4 +16,5 @@ const bot = mineflayer.createBot({
 // add some action to our bot
 bot.on('login', () => console.log('Login successful!')); // an log entry when the bot manages to log in
 bot.once('spawn', () => console.log(`${bot.username} joined to the world!`)); // if bot can join to the world
+bot.on('error', err => console.log('Error!', err.message)); // an log if we have any problem
 bot.on('end', reason => console.log('Login ended!', reason)); // an log entry when the bot disconnects
